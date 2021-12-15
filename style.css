@@ -1,0 +1,150 @@
+body{
+    margin: 30px;
+    padding: 1px;
+   
+    
+}
+div{
+   
+flex-wrap: wrap;
+}
+nav a {
+text-decoration: none;
+color: #000;
+}
+
+.nav{
+display: flex;
+flex-direction: row;
+
+
+}
+.saber{
+flex-basis: 15%;
+
+}
+.cont{
+    flex-basis:45%;
+}
+
+.border{
+    background-color: black;
+    color: white;
+    border: black solid;
+  
+    padding-top: 29px;
+    padding-bottom: 30px;
+    margin-left: 29px;
+    margin-right: 43px;
+    margin-top: 40px;
+    margin-bottom: 29px;
+    padding-top: 29px;
+    padding-bottom: 30px;
+    padding-left: 32px;
+ 
+
+}
+
+.border2{
+    background-color: black;
+    color: white;
+    border: black solid;
+  
+    padding-top: 29px;
+    padding-bottom: 30px;
+    margin-left: 29px;
+    margin-right: 100px;
+    margin-top: 84px;
+    margin-bottom: 29px;
+   
+    padding-left: 32px;
+ 
+
+}
+
+ .img{
+    padding-left: 441px;
+    position: absolute;
+    margin: 0;
+    top: 79px;
+    right: 179px;
+}
+.img2{
+    padding-left: 441px;
+    position: absolute;
+    margin: 0;
+    top: 1140px;
+    right: 200px;
+    
+
+}
+
+.pic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+    padding-top: 43px;
+}
+.contjus{
+ 
+    flex-basis:50%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-left: 112px;
+    margin-top: 45px;
+    margin-right: 96px;
+
+}
+select{
+    border: none;
+}
+nav strong{
+    padding-left: 34px;
+}
+.a{
+    padding-left: 34px;
+    color: rgb(100, 100, 100);
+}
+.button_style{
+    background-image: linear-gradient(to right, #ef762f 0%, #e92dac 51%, #d46133 100%);
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    color: white; 
+    padding: 15px 45px;
+
+}
+.button_style2{
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    color: rgb(14, 13, 13); 
+    padding: 15px 45px;
+
+}
+    .btn-grad {
+       margin: 30px 150px 15px;
+       text-align: center;
+       text-transform: uppercase;
+       transition: 0.5s;
+       background-size: 200% auto;
+                  
+       
+       display: block;
+     }
+
+     .btn-grad:hover {
+       background-position: right center;
+       color: #fff;
+       text-decoration: none;
+     }
+
+h3 img{
+    padding-top: 12px;}
+    .footer_pic{
+        margin: 49px 36px;
+    }
+
+
