@@ -1,6 +1,8 @@
 body{
-    margin: 30px;
+    margin-top: 30px;
     padding: 1px;
+    font-family: 'Poppins';
+    
    
     
 }
@@ -8,10 +10,35 @@ div{
    
 flex-wrap: wrap;
 }
-nav a {
+nav a   {
 text-decoration: none;
 color: #000;
+margin: 17px;
+
+
 }
+nav select {
+    
+    margin: 9px;
+    font-size: 18px;
+    align-items: center;  
+}
+h1 h2{
+    font-size: 48px;
+    font-weight: 600 ;
+}
+h3{
+    font-size: 20px;  
+    
+}
+.contjus p {
+    font-size: 20px; 
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    }
 
 .nav{
 display: flex;
@@ -19,6 +46,15 @@ flex-direction: row;
 
 
 }
+.nav1{
+    display: grid;
+    grid-gap:247px;
+    grid-auto-rows: minmax(10px, 25px);
+   
+    font-size: 18px;
+    
+    
+    }
 .saber{
 flex-basis: 15%;
 
@@ -26,15 +62,16 @@ flex-basis: 15%;
 .cont{
     flex-basis:45%;
 }
+.cont p {
+    font-size: 20px;
+}
 
 .border{
     background-color: black;
     color: white;
     border: black solid;
   
-    padding-top: 29px;
-    padding-bottom: 30px;
-    margin-left: 29px;
+   
     margin-right: 43px;
     margin-top: 40px;
     margin-bottom: 29px;
@@ -42,6 +79,12 @@ flex-basis: 15%;
     padding-bottom: 30px;
     padding-left: 32px;
  
+
+}
+.border img{
+    position:relative; 
+    right: 256px;
+    top: 7px;
 
 }
 
@@ -61,19 +104,40 @@ flex-basis: 15%;
  
 
 }
+.border < button{
+    width: 20em;
+}
+
+.border3{
+    background-color: black;
+    color: white;
+    border: black solid;
+   
+
+    padding-top: 29px;
+    padding-bottom: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 126px;
+    margin-bottom: 29px;
+   
+    padding-left: 32px;
+ 
+
+}
 
  .img{
     padding-left: 441px;
     position: absolute;
     margin: 0;
-    top: 79px;
+    top: 60px;
     right: 179px;
 }
 .img2{
     padding-left: 441px;
     position: absolute;
     margin: 0;
-    top: 1140px;
+    top: 1177px;
     right: 200px;
     
 
@@ -105,20 +169,31 @@ select{
 nav strong{
     padding-left: 34px;
 }
-.a{
-    padding-left: 34px;
-    color: rgb(100, 100, 100);
+
+.button {
+   
+    border: none;
+    border-radius: 30px;
+    
 }
+.button_black{
+    background-color: rgb(8, 8, 8);
+    color: rgb(250, 246, 246);
+    background-position: right center;
+
+    
+}
+
 .button_style{
     background-image: linear-gradient(to right, #ef762f 0%, #e92dac 51%, #d46133 100%);
-    box-shadow: 0 0 20px #eee;
+   
     border-radius: 10px;
     color: white; 
     padding: 15px 45px;
 
 }
 .button_style2{
-    box-shadow: 0 0 20px #eee;
+  
     border-radius: 10px;
     color: rgb(14, 13, 13); 
     padding: 15px 45px;
@@ -162,21 +237,27 @@ h3 img{
 
     .wrapper {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 2fr);
         grid-gap: 10px;
-        grid-auto-rows: minmax(10px, 268px);
+        grid-auto-rows: minmax(10px, 264px);
         justify-content: space-between;
         align-items: start;
         justify-items: center;
      
      
     }
-      
+    .one1 {
+        grid-column: 1;
+        grid-row: 1;
+        font-size: 24px;
+        
+       
+      }
       .one {
         grid-column: 1;
         grid-row: 1;
-        margin: 0;
-        margin-bottom: 2px;
+        
+       
       }
       .two {
         grid-column: 2;
@@ -185,6 +266,7 @@ h3 img{
       .three {
         grid-column: 3;
         grid-row: 1;
+       
       }
       .four {
         grid-column: 4;
@@ -202,5 +284,33 @@ h3 img{
       grid-column: 4;
       grid-row: 2;
     }
+    footer ul{
+        list-style-type: none;
+    }
+    
+    .wrapper2{
+        display: grid;
+
+       
+   
+        align-items: center;
+        padding-left: 40px;
+        padding-right: 40px;
+     
+     
+    }
+    .liste{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+      }
+    p{
+        padding-right: 100px;
+        width: 20em;
+    }
+    footer span{
+        color: rgb(117, 109, 109);
+    }
+  
 
 
