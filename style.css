@@ -56,10 +56,11 @@ justify-content: space-around;
 }
 .nav1{
     display: grid;
-    grid-gap:247px;
+    grid-gap:76px;
     grid-auto-rows: minmax(10px, 25px);
 
     font-size: 18px;
+    margin-right: -220px;
     
     
     }
@@ -118,16 +119,9 @@ flex-basis: 15%;
     background-color: black;
     color: white;
     border: black solid;
+   margin: 126px 88px 29px 20px ;
+ padding: 29px 0 30px 32px;
    
-
-    padding-top: 29px;
-    padding-bottom: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 126px;
-    margin-bottom: 29px;
-   
-    padding-left: 32px;
  
 
 }
@@ -244,10 +238,8 @@ h3 img{
 
     }
     .footstyle{
-        margin-top:0;
-        margin-left: 0;
-        margin-bottom: 0;
-        margin-right: 0;
+        margin:0 ;
+     
         
     }
 
@@ -255,7 +247,8 @@ h3 img{
         display: grid;
         grid-template-columns: repeat(4, 2fr);
         grid-gap: 9px;
-        grid-auto-rows: minmax(10px, 264px);
+        grid-auto-rows: minmax(5px, 264px);
+      
         justify-content: space-between;
         align-items: start;
         justify-items: center;
@@ -263,11 +256,19 @@ h3 img{
         margin-right: 70px;
      
     }
+    .wrapper image{
+        
+    }
     .one1 {
         grid-column: 1;
         grid-row: 1;
         font-size: 24px;
+        padding-left: 2px;
          
+      }
+      .four1 {
+        grid-column: 4;
+        grid-row: 1;
       }
       .one {
         grid-column: 1;

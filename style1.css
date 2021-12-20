@@ -1,0 +1,310 @@
+@media  (min-width: 1300px){
+.menu{
+  
+    color: white;
+    background-image: linear-gradient(to right, #5D3434 0%, #F14A93 51%, #EE2DB4 100%);
+    width: 80%;
+    height: 966px;
+    display: flex;
+    margin-left: 235px;
+    margin-top: 80px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    POSITION: RELATIVE;
+}
+.cadare{
+    
+    color: white;
+    background-color: black;
+    justify-content: space-around;
+    width: 45%;
+    height: 840px;
+    padding-top: 63px;
+    margin-left: 50%;
+    margin-top: 30px;
+
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.a{
+    color: black;
+}
+.img{
+    margin-inline: -865px;
+    margin-top: -508px;
+    position: relative;
+    width: 877PX;
+    
+}
+.table{
+    border-spacing: 20px;
+    -webkit-border-horizontal-spacing: 86px;
+
+}
+span{
+    font-family: ui-sans-serif;
+    FONT-SIZE: x-large;
+    margin-left: 132px;
+}
+span  a {
+    color: #71c6e7;
+}
+.span{
+    font-family: ui-sans-serif;
+    FONT-SIZE: x-large;
+    margin-left: 45px;
+}
+
+h1{
+   background: -webkit-linear-gradient(45deg, #e69718, #f10e93 80%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}    
+  
+input  {
+    border-radius: 10px;
+    width: 403px;
+    height: 48px;
+}
+.style{
+    background-image: linear-gradient(to right, #f7910b 0%, #F14A93 51%, #e60aa4 100%);
+    border-radius: 9px;
+    color: white;
+    padding: 65px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    cursor: pointer;
+    margin-left: 117px;
+
+}
+button{
+    background-color: #fff;
+    border-radius: 9px;
+    color: black;
+    padding: 78px;
+    padding-top: 20px;
+    padding-bottom: 21px;
+    cursor: pointer;
+    margin-left: 80px;
+}
+.line{
+    display: flex;
+}
+a {
+    color: #070707;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+}
+@media (min-width: 719px) and (max-width: 1300px) {
+    body{
+        box-sizing: border-box;}
+        .menu{
+            color: white;
+            background-image: linear-gradient(to right, #5D3434 0%, #F14A93 51%, #EE2DB4 100%);
+            width: 81%;
+            height: 857px;
+            display: flex;
+            margin-left: 86px;
+            margin-top: 80px;
+            box-sizing: border-box;
+            justify-content: space-around;
+        
+        
+        }
+        .a{
+            color: rgb(5, 5, 5);
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+        }
+        .cadare{
+            
+            color: white;
+    background-color: black;
+    justify-content: space-around;
+    width: 85%;
+    height: 762px;
+    padding-top: 63px;
+    margin-left: 2%;
+    margin-top: 30px;
+        
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+        }
+        .img{
+         display: none;
+        
+            
+        }
+        .table{
+            border-spacing: 20px;
+            -webkit-border-horizontal-spacing: 131px;
+            
+        
+        }
+        span{
+            font-family: ui-sans-serif;
+            FONT-SIZE: x-large;
+            margin-left: 0px;
+        }
+        
+        .span{
+            font-family: ui-sans-serif;
+            FONT-SIZE: x-large;
+            margin-left: 45px;
+        }
+        
+        h1{
+           background: -webkit-linear-gradient(45deg, #e69718, #f10e93 80%);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }    
+          
+        input  {
+            border-radius: 10px;
+            width: 110%;
+            height: 48px;
+            JUSTIFY-CONTENT: SPACE-AROUND;
+        }
+        
+        .style{
+            background-image: linear-gradient(to right, #f7910b 0%, #F14A93 51%, #e60aa4 100%);
+            border-radius: 9px;
+            color: white;
+            padding: 25px;
+            padding-top: 12px;
+            padding-bottom: 10px;
+            cursor: pointer;
+            margin-left: 128px;
+        }
+        button{
+            background-color: #fff;
+            border-radius: 9px;
+            color: black;
+            padding: 78px;
+            padding-top: 20px;
+            padding-bottom: 21px;
+            cursor: pointer;
+            margin-left: 80px;
+        }
+        
+      span  a {
+            color: #71c6e7;
+        }
+        h1{
+            font-family: sans-serif;
+            font-size: 40px;
+        }
+       
+
+}
+@media screen  and  (max-width: 720px)  {
+  
+
+      
+        .cadare{
+            color: white;
+    background-color: black;
+    justify-content: space-around;
+    width: 91%;
+    height: 692px;
+    padding-top: 63px;
+    margin-left: 4%;
+    margin-top: 30px;
+    
+        
+        }
+        .img{
+         display: none;
+        
+            
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+        }
+        .table{
+            border-spacing: 20px;
+            -webkit-border-horizontal-spacing: 55px;
+        
+        }
+        span{
+            font-family: ui-sans-serif;
+            FONT-SIZE: x-large;
+            margin-left: 0px;
+        }
+        
+        .span{
+            font-family: ui-sans-serif;
+            FONT-SIZE: large;
+            margin-left: -9px;
+        }
+        }
+        
+        h1{
+           background: -webkit-linear-gradient(45deg, #e69718, #f10e93 80%);
+           -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+        }    
+        span  a {
+            color: #71c6e7;
+        }
+          
+        input  {
+            border-radius: 10px;
+            width:  100%;
+            height: 48px;
+            JUSTIFY-CONTENT: SPACE-AROUND;
+        }
+        
+        .style{
+            background-image: linear-gradient(to right, #f7910b 0%, #F14A93 51%, #e60aa4 100%);
+            border-radius: 9px;
+            color: white;
+            padding: 47px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            cursor: pointer;
+            margin-left: 69px;
+        }
+        button{
+            background-color: #fff;
+            border-radius: 9px;
+            color: black;
+            padding: 78px;
+            padding-top: 11px;
+            padding-bottom: 24px;
+            cursor: pointer;
+            margin-left: 7px;
+        }
+        
+        a{
+            color: rgb(82, 129, 230);
+        }
+        h1{
+            font-family: sans-serif;
+            font-size: 40px;
+        }
+        a{
+            color: #000;
+        }
+        img{
+            width: 40%;
+
+        }
+        button a{
+            text-decoration: none;
+            color: black;
+        }
+
+

@@ -1,0 +1,9 @@
+<svg id="icon-hamburger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66.143" height="62.363" viewBox="0 0 66.143 62.363">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.23" y1="1" x2="0.89" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fb7b30"/>
+      <stop offset="1" stop-color="#d81db3"/>
+    </linearGradient>
+  </defs>
+  <path id="Tracé_32" data-name="Tracé 32" d="M0,0H66.143V7.8H0ZM0,27.284H66.143v7.8H0ZM0,54.568H66.143v7.8H0Z" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+</svg>
