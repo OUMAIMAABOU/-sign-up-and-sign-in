@@ -9,10 +9,7 @@ body{
    
     
 }
-div{
-   
-flex-wrap: wrap;
-}
+
 nav a   {
 text-decoration: none;
 color: #000;
@@ -40,7 +37,7 @@ h3{
 .border2 h1{
     width: 15em;
     font-size: 48px;
-    font-weight: 600 ;
+    
 }
 
 strong img{
@@ -79,13 +76,9 @@ flex-basis: 15%;
     color: white;
     border: black solid;
   
+   margin: 40px 43px 29px;
+   padding: 29px 0px 30px 32px;
    
-    margin-right: 43px;
-    margin-top: 40px;
-    margin-bottom: 29px;
-    padding-top: 29px;
-    padding-bottom: 30px;
-    padding-left: 32px;
  
 
 }
@@ -101,16 +94,8 @@ flex-basis: 15%;
     color: white;
     border: black solid;
   
-    padding-top: 29px;
-    padding-bottom: 30px;
-    margin-left: 29px;
-    margin-right: 100px;
-    margin-top: 84px;
-    margin-bottom: 29px;
-   
-    padding-left: 32px;
- 
-
+    padding: 29px 0px 30px 32px;
+    margin: 84px 100px 29px 29px;
 }
 
 .border3{
@@ -119,13 +104,10 @@ flex-basis: 15%;
     border: black solid;
    margin: 126px 88px 29px 20px ;
  padding: 29px 0 30px 32px;
-   
- 
-
 }
 
  .img{
-     display: flex;
+    display: flex;
     padding-left: 441px;
     position: absolute;
     margin: 0;
@@ -215,8 +197,6 @@ nav strong{
        text-transform: uppercase;
        transition: 0.5s;
        background-size: 200% auto;
-                  
-       
        display: block;
      }
 

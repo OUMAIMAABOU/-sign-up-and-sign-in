@@ -8,7 +8,7 @@
     display: flex;
     margin-left: 235px;
     margin-top: 80px;
-    box-sizing: border-box;
+   
     justify-content: space-around;
     POSITION: RELATIVE;
 }
@@ -62,6 +62,7 @@ h1{
    background: -webkit-linear-gradient(45deg, #e69718, #f10e93 80%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+
 }    
   
 input  {
