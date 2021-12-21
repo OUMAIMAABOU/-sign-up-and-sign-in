@@ -18,6 +18,7 @@ margin: 17px;
 }
 .button_black a{
     color: white;
+    FONT-SIZE: 9PX;
 }
 
 nav select {
@@ -168,6 +169,8 @@ nav strong{
     background-color: rgb(8, 8, 8);
     color: rgb(250, 246, 246);
     cursor: pointer;
+    width: 19%;
+    HEIGHT: 107%;
   
 }
 
