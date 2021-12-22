@@ -731,9 +731,7 @@ justify-content: space-around;
 
 }
 
-.saber{
-flex-basis: 15%;
-}
+
 
 
 
@@ -744,7 +742,7 @@ flex-basis: 15%;
     color: white;
     border: black solid;
     
-    width: 89%;
+    width: 84%;
     display: flex;
     justify-content: space-around;
     flex-wrap: nowrap;
@@ -825,6 +823,7 @@ select{
 }
 nav strong{
     padding-left: 34px;
+    
 }
 
 .button {
@@ -931,6 +930,8 @@ h3 img{
         font-size: 48px;
         text-align: center;
         DISPLAY: flex;
+        padding-left: 43px;
+
       }
       strong img{
           display: flex;
@@ -953,10 +954,7 @@ h3 img{
           display: flex;
           
       }
-      .two1{
-        
-       
-    }
+ 
     .two {
         padding: 15px 2px 2px 20px;
     }
@@ -1001,7 +999,7 @@ h3 img{
         align-items: flex-start;      }
     p{
         padding-right: 100px;
-        width: 21em;
+        width: 16em;
         font-size: 100%;
         TEXT-ALIGN: JUSTIFY;
     }
